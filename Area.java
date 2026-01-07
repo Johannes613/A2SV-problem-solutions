@@ -3,7 +3,6 @@ public class Area{
         System.out.println("Feature order change " + areaOfCircle(5));
     }
     public static double areaOfCircle(double radius) {
-        int pi = 3;
         return Math.PI * radius;
     }
 }
