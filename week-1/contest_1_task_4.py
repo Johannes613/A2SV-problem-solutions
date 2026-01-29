@@ -8,3 +8,4 @@ if k <= odds: print(2 * k -1)
 else: 
     result = k - odds
     print(2 * result)
+
