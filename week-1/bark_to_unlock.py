@@ -5,8 +5,7 @@ first_found = False
 sec_found = False
 
 
-
-for i in range(n):
+for _ in range(n):
     inp = input().strip()
     if inp == password:
         print("YES")
@@ -20,6 +19,15 @@ if first_found and sec_found:
     print("YES")
 else:
     print("NO")
+ 
+# O(n)
+# O(1)
+
+
+
+
+
+
 
 
 
